@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'dead_kansas';
+    src: url('dead_kansas.ttf');
+}
+
+body {
+	margin: 0;
+	background-image: url("walking_dead.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#main {
+	width: 690px;
+	height: 894px;
+	margin-left: 336px;
+	display: flex;
+	border: 2px solid black;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#header {
+	width: 690px;
+	font-family: 'dead_kansas';
+	font-size: 20px;
+	color: #262216;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+h1 {
+	flex-grow: 2;
+	font-size: 60px;
+	font-family: 'dead_kansas';
+	color: #262216;
+}
+
+
+#conteneur2 {
+	display: flex;
+	flex-direction: row;
+
+}
+
+p {
+	font-family: 'dead_kansas';
+	font-size: 18px;
+	color: white;
+	text-align: right;
+}
+
+span {
+	font-weight: bold;
+	font-size: 24px;
+}
